@@ -76,6 +76,7 @@ h1 {
 .btn-full:hover,
 .btn-full:active {
     border: 1px solid #ca3814;
+    background-color: #ca3814;
 }
 
 .btn-ghost:hover,
