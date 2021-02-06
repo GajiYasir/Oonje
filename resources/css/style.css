@@ -22,17 +22,50 @@ html {
     margin: 0 auto;
 }
 
+section {
+    padding: 80px 0;
+}
+
 /*  HEADINGs   ===========*/
 
-h1 {
-   margin-top: 0;  
-   margin-bottom: 20px;
-   color: #fff;
+h1,
+h2 {
    font-size: 240%;
    font-weight: 300;
    text-transform: uppercase;
    letter-spacing: 1px;
-   word-spacing: 3px;
+   
+}
+
+h1 {
+    margin-top: 0;  
+    margin-bottom: 20px;
+    color: #fff;
+    word-spacing: 3px;
+}
+
+h2 {
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #ca3814;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+/*  BUTTONS   ===========*/
+.long-copy {
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 /*  BUTTONS   ===========*/
