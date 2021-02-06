@@ -51,7 +51,7 @@ h1 {
     font-weight: 300;
     text-decoration: none;
     border-radius: 300px;
-    transition: background-color 0.2s, border 0.2s, period 0.2s;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
 
 .btn-hover,
