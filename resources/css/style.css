@@ -210,10 +210,15 @@ header {
 
 .meal-photo {
     width: 100%;
+    overflow: hidden;
 }
 
 .meal-photo img {
     width: 100%;
     height: auto;
     transform: scale(1.15);
+}
+
+.meal-photo img:hover {
+    transform: scale(1);
 }
