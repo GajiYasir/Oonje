@@ -54,8 +54,8 @@ h1 {
     transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
 
-.btn-hover,
-.btn-active {
+.btn:hover,
+.btn:active {
     background-color: #ca3814;
 }
 
