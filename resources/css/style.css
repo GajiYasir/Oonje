@@ -410,11 +410,11 @@ cite img {
 
 .plan-box div:last-child {
     text-align: center;
-    border: none;
+    border: 0;
 }
 
 .plan-price {
-    font-size: 310%;
+    font-size: 300%;
     margin-bottom: 10px;
     font-weight: 100;
     color: #ca3814;
@@ -426,7 +426,7 @@ cite img {
 }
 
 .plan-price-meal {
-    font-size: 76%;
+    font-size: 80%;
 }
 
 .plan-box ul {
