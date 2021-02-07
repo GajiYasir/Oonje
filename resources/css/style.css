@@ -30,14 +30,14 @@ section {
     padding: 1%;
 }
 
-.clearfix {zoom: 1}
+/* .clearfix {zoom: 1}
 .clearfix {
     content: '.';
     clear: both;
     display: block;
     height: 0;
     visibility: hidden;
-}
+} */
 
 /*  HEADINGs   ===========*/
 
