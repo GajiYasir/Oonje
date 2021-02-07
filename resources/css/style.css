@@ -381,3 +381,58 @@ cite img {
     margin-right: 10px;
     vertical-align: middle;
 }
+
+/*  SIGN UP PLANS   ===========*/
+
+.section-plans {
+    background-color: #c5c5caab;
+}
+
+.plan-box {
+    background-color: #fff;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+    box-shadow: 0 2px 2px #fcfcfc;
+
+}
+
+.plan-box div {
+    padding: 15px;
+    border-bottom: 1px solid #c5c5caab;
+}
+
+.plan-box div:first-child{
+    background-color: #fcfcfc;
+    border-top-left-radius: 5xp;
+    border-top-right-radius: 5px;
+}
+
+.plan-box div:last-child {
+    text-align: center;
+    border: none;
+}
+
+.plan-price {
+    font-size: 310%;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: #ca3814;
+}
+
+.plan-price span {
+    font-size: 30%;
+    font-weight: 300;
+}
+
+.plan-price-meal {
+    font-size: 76%;
+}
+
+.plan-box ul {
+    list-style: none;
+}
+
+.plan-box ul li {
+    padding: 5px 0;
+}
