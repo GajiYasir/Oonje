@@ -190,6 +190,12 @@ header {
     border-bottom: 2px solid #ca3814;
 }
 
+/*  FEATURES   ===========*/
+
+.section-features .long-copy {
+    margin-bottom: 30px;
+}
+
 /*  MEALS   ===========*/
 
 .section-meals {
@@ -210,15 +216,20 @@ header {
 
 .meal-photo {
     width: 100%;
+    margin: 0;
     overflow: hidden;
+    background-color: #555;
 }
 
 .meal-photo img {
+    opacity: 0.7;
     width: 100%;
     height: auto;
     transform: scale(1.15);
+    transition: transfrom 0.5s, opacity 0.5s;
 }
 
 .meal-photo img:hover {
-    transform: scale(1);
+    opacity: 1;
+    transform: scale(1.03);
 }
