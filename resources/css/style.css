@@ -292,3 +292,11 @@ header {
     width: auto;
     margin-right: 10px;
 }
+
+/*  CITIES   ===========*/
+
+.box img {
+    width: 1005;
+    height: auto;
+    margin-bottom: 15px;
+}
