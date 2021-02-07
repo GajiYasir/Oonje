@@ -341,3 +341,10 @@ header {
 .city-feature {
     margin-bottom: 5px;
 }
+
+/*  CITIES   ===========*/
+
+.section-testimonials {
+    background-image: url(img/back-customers.jpg);
+    background-size: cover;
+}
