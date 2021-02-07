@@ -355,6 +355,17 @@ blockquote {
     padding: 2%;
     font-style: italic;
     line-height: 145%;
+    position: relative;
+    margin-top: 40px;
+}
+
+blockquote:before {
+    content: "\201c";
+    font-size: 350%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -6px;
 }
 
 cite {
@@ -364,7 +375,7 @@ cite {
 }
 
 cite img {
-    height: 50px;
+    height: 45px;
     border-radius: 50%;
     margin-right: 10px;
     vertical-align: middle;
