@@ -527,11 +527,11 @@ footer {
     color: #3b5993;
 }
 
-.ion-social-twitter {
+.ion-social-twitter:hover {
     color: #00aced;
 }
 
-.ion-social-instagram {
+.ion-social-instagram:hover {
     color: #517cad;
 }
 
