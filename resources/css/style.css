@@ -249,6 +249,12 @@ header {
     background-color: #fff;
 }
 
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+    padding: 8px 0;
+    color: #555;
+}
+
 /*  FEATURES   ===========*/
 
 .section-features .long-copy {
