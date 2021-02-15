@@ -203,7 +203,7 @@ header {
 }
 
 .logo {
-    height: 50px;
+    height: 70px;
     width: auto;
     float: left;
     margin: 5px 0;
@@ -256,7 +256,7 @@ header {
     color: #555;
 }
 
-.main-nav { margin-top: 18px; }
+.main-nav { margin-top: 14px; }
 
 /*  FEATURES   ===========*/
 
