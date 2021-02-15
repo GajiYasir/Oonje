@@ -209,6 +209,8 @@ header {
     margin-top: 15px;
 }
 
+/*  Main nav  ===========*/
+
 .main-nav {
     float: right;
     list-style: none;
@@ -235,6 +237,16 @@ header {
 .main-nav li a:hover,
 .main-nav li a:active {
     border-bottom: 2px solid #ca3814;
+}
+
+/*  STICKY NAV   ===========*/
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
 }
 
 /*  FEATURES   ===========*/
