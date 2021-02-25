@@ -248,6 +248,7 @@ header {
     width: 100%;
     background-color: #fff;
     box-shadow: 0 2px 2px rgb(201, 200, 200);
+    z-index: 999;
 }
 
 .sticky .main-nav li a:link,
