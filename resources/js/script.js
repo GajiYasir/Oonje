@@ -120,16 +120,17 @@ $(document).ready(function () {
     /* Google Maps */
     var map = new GMaps({
         div: '.map',
-        lat: 0.3491826,
-        lng: 32.6111855,
+        lat: 6.4740115,
+        lng: 3.200015,
+        zoom: 12
     });
 
     map.addMarker({
-        lat: 0.3531804,
-        lng: 32.6128433,
-        title: 'Ntinda Complex Apartments',
+        lat: 6.4740115,
+        lng: 3.200015,
+        title: 'Lagos State University',
         infoWindow: {
-            content: "<p>Our Ntinda Head Quarters</p>"
+            content: "<p>Our Lagos Head Quarters within the best university in Nigeria</p>"
         }
     });
 
