@@ -159,7 +159,7 @@ input[type=submit]:active {
 .btn-full:link,
 .btn-full:visited,
 input[type=submit] {
-    background-color: #e8421863;
+    background-color: #e84218e1;
     border: 1px solid #e84118;
     color: #fff;
     margin-right: 15px;
